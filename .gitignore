@@ -1,0 +1,5 @@
+
+creds.ini
+.idea/
+__pycache__/
+*.pyc
