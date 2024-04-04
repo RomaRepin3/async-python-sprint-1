@@ -1,6 +1,3 @@
-import subprocess
-
-
 def check_python_version():
     from utils import check_python_version
 
@@ -18,16 +15,6 @@ def check_api():
     all_keys = resp.keys()
     print(all_keys)
     print(resp["info"])
-
-    # command_to_execute = [
-    #     "python3",
-    #     "./external/analyzer.py",
-    #     "-i",
-    #     "./examples/response.json",
-    #     "-o",
-    #     "./output.json",
-    # ]
-    # run = subprocess.run(command_to_execute, capture_output=True)
 
 
 if __name__ == "__main__":
