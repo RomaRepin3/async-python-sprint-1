@@ -3,7 +3,6 @@ from multiprocessing import Manager
 from multiprocessing import Pool
 from os import cpu_count
 
-# from external.client import YandexWeatherAPI
 from tasks import (
     DataFetchingTask,
     DataCalculationTask,
